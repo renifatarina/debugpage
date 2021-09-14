@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Signika&display=swap');
+
+* {
+    font-family: 'Signika', sans-serif;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.6s;
+}
+
+nav.navbar {
+    background-color: #BD4B4B; 
+}
+
+header {
+    background-color: #EFB7B7;
+    min-height: 100vh;
+}
+#sp .main-row {
+    background-color: white;
+    margin: 2%;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, .05);
+    border-radius: 0.5rem;
+}
+
+#sp .main-row .blog-img img {
+    height: 200px;
+    padding-left: 80px;
+}
+
+#sp {
+    min-height: calc(100vh - 250vh);
+    background-color: #EFB7B7
+}
+
+nav.pagination {
+    color: #BD4B4B!important;
+}
+
+footer {
+    background-color: #BD4B4B; 
+    min-height: 40px;
+    color: white;
+    bottom: 0;
+}
